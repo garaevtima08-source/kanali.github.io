@@ -1,2 +1,0 @@
-# kanali.github.io
-qwe
