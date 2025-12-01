@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../fonts/Rubik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+.modlle{
+    display: flex;
+    width: 304px;
+    height: 394px;
+    margin: 15% auto;
+    flex-direction: column;
+    align-items:center;
+    border-radius: 8px;
+    padding: 36px;
+    background-color: white;
+}
+
+.modlle_login_password{
+    width: 232px;
+    height: 25px; 
+    border: none;
+    border-bottom: 1px solid #333333;
+     font-family: Rubik-Regular;
+     font-size: 16px;
+     color: 828282;
+     margin-top: 24px;
+     margin-left: 36px;
+     margin-right: 36px;
+
+}
+.modlle_p{
+    font-family: Rubik-Medium;
+    font-size: 28px;
+    margin-top: 36px;
+    color: #333333;
+    text-align: center;
+}
+.modlle_btn_login{
+    width: 113px;
+    height: 38px;
+    border: none;
+    background-color:#e5261e ;
+    border-radius: 4px;
+    margin-top: 111px;
+    
+    font-family: Rubik-Medium;
+    font-size: 16px;
+    color: white;
+}
+.modlle_form{
+    display: flex;
+     flex-direction: column;
+    align-items:center;
+}
+.modlle_div_checkbox{
+    margin-top:23px ;
+    font-family:Rubik-Regular;
+    font-size: 16px;
+    width: 232px;
+    height: 25px;
+    display: flex;
+    flex-wrap: nowrap; 
+    color: #333333;
+}
+.modlle_checkbox{
+    border-radius: 4px;
+    background: none;
+    color: #e5261e;
+}
+.checkbox_p{
+    margin: auto auto auto 8px;
+}
+
+body{
+    background-color: #706a6a;
+}
